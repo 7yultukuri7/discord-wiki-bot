@@ -51,20 +51,20 @@
 			"help": "`[[%2$s]]` や `{{%2$s}}のようなインラインコマンドを無効にするには、`%1$s`を使用します。"
 		},
 		"inline disabled": {
-			"inline": "inline commands are currently disabled for this server.",
-			"channel inline": "inline commands are currently disabled for this channel.",
-			"inlinechanged": "you disabled inline commands for this server.",
-			"channel inlinechanged": "you disabled inline commands for this channel.",
-			"help": "Use `%1$s` to enable inline commands like `[[%2$s]]` and `{{%2$s}}`."
+			"inline": "現在、このサーバーではインラインコマンドは無効になっています。",
+			"channel inline": "現在、このチャネルではインラインコマンドが無効になっています。",
+			"inlinechanged": "このサーバーのインラインコマンドを無効にしました。",
+			"channel inlinechanged": "このチャネルのインラインコマンドを無効にしました。",
+			"help": "`[[%2$s]]` や `{{%2$s}}`のようなインラインコマンドを有効にするには、`%1$s`を使用します。"
 		}
 	},
 	"pause": {
-		"on": "I'm now paused on this server and will ignore most commands!",
-		"off": "I'm no longer paused on this server and will respond to all commands again!"
+		"on": "このサーバーでは一時停止しているため、ほとんどのコマンドを無視します！",
+		"off": "このサーバーでは一時停止しなくなり、すべてのコマンドに再度応答します！"
 	},
 	"voice": {
-		"text": "I try to give everyone in a voice channel a specific role:",
-		"enable": "Use `%s` to enable this function.",
+		"text": "ボイスチャンネルの全員に特定のロールを与えようとしています:",
+		"enable": "この機能を有効にするには、`%s`を使用します。",
 		"disable": "Use `%s` to disable this function.",
 		"enabled": "you enabled the function to add roles for voice channels.",
 		"disabled": "you disabled the function to add roles for voice channels.",
@@ -230,8 +230,8 @@
 			"I'm doing science and I'm still alive.",
 			"I feel fantastic and I'm still alive."
 		],
-		"default": "I'm fully functional!",
-		"time": "Response time"
+		"default": "私は完全に機能しています！",
+		"time": "反応時間"
 	},
 	"help": {
 		"all": "So, you want to know what things I can do? Here is a list of all commands that I understand:",
