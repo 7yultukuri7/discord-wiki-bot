@@ -1,0 +1,286 @@
+{
+	"__translator": [
+		"7yultukuri7"
+	],
+	"lang": "ja",
+	"dateformat": "ja-jp",
+	"aliase": {
+		"purge": "delete",
+		"🎲": "random"
+	},
+	"prefix": "このサーバーのプレフィックスは`%s`です。 プレフィックスは`%s settings prefix`で変更できます。 すべてのコマンドのリストについては、`%s help`で確認してください。",
+	"missingperm": "このコマンドに必要ないくつかの権限がありません:",
+	"limit": "🚨 **ストップ、限界に達した！** 🚨\n\n%s, メッセージに含まれるコマンドが多すぎます！",
+	"disclaimer": "I am a small bot with the task to link to Gamepedia and Fandom wikis. %s wrote me in JavaScript.\n\n**I am not affiliated with Fandom and am an unofficial tool!**\n\nYou can support me on Patreon:",
+	"helpserver": "For questions and problems please visit my support server:",
+	"patreon": "this is a Patreon only feature!\nYou can support me on Patreon to get access to this feature:",
+	"settings": {
+		"save_failed": "sadly the settings couldn't be saved, please try again later.",
+		"missing": "this server isn't set up yet. Use %1$s and %2$s to change the settings.",
+		"foundwikis": "Do you mean any of these wikis?",
+		"current": "these are the current settings for this server:",
+		"channel current": "these are the current settings for this channel:",
+		"currentlang": "Language:",
+		"currentprefix": "Prefix:",
+		"currentinline": "Inline commands:",
+		"currentwiki": "Default wiki:",
+		"currentchannel": "Channel overwrites:",
+		"nochannels": "*No channel overwrites yet*",
+		"lang": "the language for this server is:",
+		"channel lang": "the language for this channel is:",
+		"langinvalid": "the specified language is not supported!",
+		"langchanged": "you changed the language for this server to:",
+		"channel langchanged": "you changed the language for this channel to:",
+		"langhelp": "Use `%s <language>` to change the language.\nCurrently supported languages are:",
+		"wikimissing": "no default wiki is set for this server yet!",
+		"wiki": "the default wiki for this server is:",
+		"channel wiki": "the default wiki for this channel is:",
+		"wikiinvalid": "please provide a valid link to a Gamepedia or Fandom wiki!",
+		"wikichanged": "you changed the default wiki for this server to:",
+		"channel wikichanged": "you changed the default wiki for this channel to:",
+		"wikihelp": "Use `%s <link>` to change the default wiki.\nLink to the wiki: `https://<wiki>.gamepedia.com/` or `https://<wiki>.fandom.com/`",
+		"prefix": "the prefix for this server is:",
+		"prefixinvalid": "the specified prefix is not supported!",
+		"prefixchanged": "you changed the prefix for this server to:",
+		"prefixhelp": "Use `%s <prefix>` to change the prefix.\nThe prefix may not include spaces or mentions!",
+		"inline enabled": {
+			"inline": "inline commands are currently enabled for this server.",
+			"channel inline": "inline commands are currently enabled for this channel.",
+			"inlinechanged": "you enabled inline commands for this server.",
+			"channel inlinechanged": "you enabled inline commands for this channel.",
+			"help": "Use `%1$s` to disable inline commands like `[[%2$s]]` and `{{%2$s}}`."
+		},
+		"inline disabled": {
+			"inline": "inline commands are currently disabled for this server.",
+			"channel inline": "inline commands are currently disabled for this channel.",
+			"inlinechanged": "you disabled inline commands for this server.",
+			"channel inlinechanged": "you disabled inline commands for this channel.",
+			"help": "Use `%1$s` to enable inline commands like `[[%2$s]]` and `{{%2$s}}`."
+		}
+	},
+	"pause": {
+		"on": "I'm now paused on this server and will ignore most commands!",
+		"off": "I'm no longer paused on this server and will respond to all commands again!"
+	},
+	"voice": {
+		"text": "I try to give everyone in a voice channel a specific role:",
+		"enable": "Use `%s` to enable this function.",
+		"disable": "Use `%s` to disable this function.",
+		"enabled": "you enabled the function to add roles for voice channels.",
+		"disabled": "you disabled the function to add roles for voice channels.",
+		"name": "voice channel name",
+		"channel": "Voice channel",
+		"join": "%1$s joined the voice channel \"%2$s\".",
+		"left": "%1$s left the voice channel \"%2$s\"."
+	},
+	"overview": {
+		"inaccurate": "Statistics may be inaccurate",
+		"name": "Full name:",
+		"vertical": "Vertical:",
+		"topic": "Topic:",
+		"founder": "Founder:",
+		"created": "Created:",
+		"manager": "Wiki manager:",
+		"talk": "talk",
+		"official": "Official wiki:",
+		"yes": "Yes",
+		"no": "No",
+		"articles": "Articles:",
+		"pages": "Total pages:",
+		"edits": "Edits:",
+		"users": "Active users:",
+		"description": "Description:",
+		"image": "Image:",
+		"none": "*none*"
+	},
+	"user": {
+		"gender": {
+			"unknown": "Unknown",
+			"male": "Male",
+			"female": "Female"
+		},
+		"groups": [
+			["global_bot", "Gamepedia bot"],
+			["hydra_staff", "Gamepedia staff"],
+			["wiki_manager", "Wiki manager"],
+			["content_team_member", "Content Team Member"],
+			["grasp", "GRASP"],
+			["bot-global", "Fandom bot"],
+			["staff", "Fandom staff"],
+			["wiki-manager", "Wiki manager"],
+			["helper", "Fandom helper"],
+			["content-team-member", "Content Team Member"],
+			["vstf", "VSTF"],
+			["content-volunteer", "Content volunteer"],
+			["global-discussions-moderator", "Global discussions moderator"],
+			["vanguard", "Vanguard"],
+			["voldev", "Volunteer Developer"],
+			["council", "Community Council"],
+			["bot", "Bot"],
+			["bureaucrat", "Bureaucrat"],
+			["sysop", "Administrator"],
+			["interface-admin", "Interface administrator"],
+			["content-moderator", "Content moderator"],
+			["threadmoderator", "Discussions moderator"],
+			["chatmoderator", "Chat moderator"],
+			["directors", "Director"],
+			["Patrol", "Inspector"],
+			["editor", "Editor"],
+			["moderator", "Moderator"],
+			["Elite_users", "Elite user"],
+			["patrollers", "Patroller"],
+			["rollback", "rollback"],
+			["autoreview", "autoreview"],
+			["autopatrol", "autopatrol"],
+			["authenticated", "authenticated"],
+			["user", "User"]
+		],
+		"info": {
+			"gender": "Gender:",
+			"registration": "Registration date:",
+			"editcount": "Edit count:",
+			"globaleditcount": "Global edit count:",
+			"wikisedited": "Wikis edited:",
+			"group": "Group:",
+			"discord": "Discord:",
+			"loading": "Loading global statistics…"
+		},
+		"block": {
+			"header": "%s is currently blocked!",
+			"text": "Blocked on %1$s until %2$s by %3$s with reason \"%4$s\".",
+			"noreason": "Blocked on %1$s until %2$s by %3$s.",
+			"nofromtext": "Blocked until %2$s by %3$s with reason \"%4$s\".",
+			"nofromnoreason": "Blocked until %2$s by %3$s.",
+			"until_infinity": "the end of all days"
+		},
+		"gblock": {
+			"header": "%s is currently globally blocked!",
+			"text": "Blocked on %1$s until %2$s by %3$s on %4$s with reason \"%5$s\".",
+			"noreason": "Blocked on %1$s until %2$s by %3$s on %4$s.",
+			"disabled": "This account is currently disabled!"
+		}
+	},
+	"diff": {
+		"badrev": "at least one revision doesn't exist!",
+		"nocomment": "*No description provided*",
+		"hidden": "*hidden*",
+		"info": {
+			"editor": "Editor:",
+			"timestamp": "Edit date:",
+			"size": "Difference:",
+			"bytes": "%s Bytes",
+			"comment": "Comment:",
+			"tags": "Tags:",
+			"removed": "Removed:",
+			"added": "Added:",
+			"more": "And more",
+			"whitespace": "Only whitespace"
+		}
+	},
+	"search": {
+		"page": "page",
+		"search": "search",
+		"infopage": "Not the correct result? Use %s for a direct link.",
+		"infosearch": "Not the correct result? Use %1$s for a direct link or %2$s for a list of all hits.",
+		"category": {
+			"content": "Content of this category:",
+			"empty": "*This category is empty*",
+			"pages": {
+				"default": "%s pages",
+				"1": "%s page"
+			},
+			"files": {
+				"default": "%s files",
+				"1": "%s file"
+			},
+			"subcats": {
+				"default": "%s categories",
+				"1": "%s category"
+			}
+		},
+		"special": "Content of this special page:",
+		"empty": "*This special page is empty*"
+	},
+	"discussion": {
+		"post": "post",
+		"main": "Discussions",
+		"image": "View Image",
+		"votes": {
+			"default": "%s votes",
+			"1": "%s vote"
+		}
+	},
+	"invite": {
+		"bot": "Use this link to invite me to another server:"
+	},
+	"poll": {
+		"title": "**Poll:**\n"
+	},
+	"delete": {
+		"invalid": "the specified number isn't valid.",
+		"success": "the most recent %s messages in this channel were deleted.",
+		"big": "the specified number is too big. The maximum is %s!"
+	},
+	"test": {
+		"random": 10,
+		"pause": "I'm currently paused on this server.",
+		"text": [
+			"I'm still alive!",
+			"and believe me, I am still alive.",
+			"I'm doing science and I'm still alive.",
+			"I feel fantastic and I'm still alive."
+		],
+		"default": "I'm fully functional!",
+		"time": "Response time"
+	},
+	"help": {
+		"all": "So, you want to know what things I can do? Here is a list of all commands that I understand:",
+		"admin": "These commands can only be performed by administrators:",
+		"noadmin": "you need the `Manage Server` permission for these commands!",
+		"pause": "**I'm currently paused on this server!**\nOnly these commands can be performed:",
+		"footer": "If you got an unwanted response, you can react with 🗑️ to my message and I will delete it.",
+		"list": [
+			{ "cmd": "<search term>", "desc": "I will answer with a link to a matching article in the wiki.", "unsearchable": true },
+			{ "cmd": "[[<page name>]]", "desc": "I will answer with a direct link to the article in the wiki.", "unsearchable": true, "inline": true },
+			{ "cmd": "{{<page name>}}", "desc": "I will answer with a link to the article in the wiki.", "unsearchable": true, "inline": true },
+			{ "cmd": "!<wiki> <search term>", "desc": "I will answer with a link to a matching article in the named Gamepedia wiki: `https://<wiki>.gamepedia.com/`", "unsearchable": true },
+			{ "cmd": "?<wiki> <search term>", "desc": "I will answer with a link to a matching article in the named Fandom wiki: `https://<wiki>.fandom.com/`", "unsearchable": true },
+			{ "cmd": "??<wiki> <search term>", "desc": "I will answer with a link to a matching article in the named Wikia wiki: `https://<wiki>.wikia.org/`", "unsearchable": true },
+			{ "cmd": "User:<username>", "desc": "I will show some information about the user.", "unsearchable": true },
+			{ "cmd": "diff <diff> [<oldid>]", "desc": "I will answer with a link to the diff in the wiki." },
+			{ "cmd": "diff <page name>", "desc": "I will answer with a link to the last diff on the article in the wiki." },
+			{ "cmd": "random", "desc": "I will answer with a link to a random page in the wiki." },
+			{ "cmd": "🎲", "desc": "I will answer with a link to a random page in the wiki.", "hide": true },
+			{ "cmd": "overview", "desc": "I will show some information and statistics about the wiki." },
+			{ "cmd": "/<Minecraft command>", "desc": "I will answer with the syntax of the Minecraft command and a link to the article for the command in the Minecraft Wiki.", "unsearchable": true, "minecraft": true },
+			{ "cmd": "command <Minecraft command>", "desc": "I will answer with the syntax of the Minecraft command and a link to the article for the command in the Minecraft Wiki.", "hide": true, "minecraft": true },
+			{ "cmd": "cmd <Minecraft command>", "desc": "I will answer with the syntax of the Minecraft command and a link to the article for the command in the Minecraft Wiki.", "hide": true, "minecraft": true },
+			{ "cmd": "bug <Minecraft bug>", "desc": "I will answer with a link to the bug in the Minecraft bug tracker.", "minecraft": true },
+			{ "cmd": "page <page name>", "desc": "I will answer with a direct link to the article in the wiki.", "hide": true },
+			{ "cmd": "search <search term>", "desc": "I will answer with a direct link to the search page for the article in the wiki.", "hide": true },
+			{ "cmd": "discussion <search term>", "desc": "I will answer with a link to a matching discussion thread in the Fandom wiki." },
+			{ "cmd": "discussion post <search term>", "desc": "I will answer with a link to a matching discussion post in the Fandom wiki." },
+			{ "cmd": "info", "desc": "I will introduce myself." },
+			{ "cmd": "help", "desc": "I will list all the commands that I understand." },
+			{ "cmd": "help <bot command>", "desc": "Wonder how a command works? Let me explain it to you!" },
+			{ "cmd": "help admin", "desc": "I will list all administrator commands." },
+			{ "cmd": "help admin", "desc": "I will list all administrator commands.", "unsearchable": true, "admin": true },
+			{ "cmd": "settings", "desc": "I will change the settings for this server.", "admin": true, "pause": true },
+			{ "cmd": "settings lang <language>", "desc": "I will change the language for this server.", "hide": true, "admin": true },
+			{ "cmd": "settings prefix <prefix>", "desc": "I will change the prefix for this server.", "hide": true, "admin": true, "patreon": true },
+			{ "cmd": "settings inline toggle", "desc": "I will toggle inline commands for this server.", "hide": true, "admin": true },
+			{ "cmd": "settings wiki <wiki>", "desc": "I will change the default wiki for this server.", "hide": true, "admin": true },
+			{ "cmd": "settings channel", "desc": "I will change the overwrites for the current channel.", "hide": true, "admin": true },
+			{ "cmd": "voice", "desc": "I try to give everyone in a voice channel a specific role.", "admin": true, "pause": true },
+			{ "cmd": "pause @mention", "desc": "I will ignore all commands on this server, except a few admin commands.", "admin": true },
+			{ "cmd": "pause @mention", "desc": "I will respond to all commands on this server again.", "unsearchable": true, "hide": true, "pause": true },
+			{ "cmd": "poll <question as free text>", "desc": "I will create a poll and react with <:support:448222377009086465> and <:oppose:448222455425794059>.", "admin": true },
+			{ "cmd": "poll <emoji> [<emoji> ...] <question as free text>", "desc": "I will create a poll and react with the possible answers.", "admin": true },
+			{ "cmd": "test", "desc": "If I'm active, I'll answer! Otherwise not.", "pause": true },
+			{ "cmd": "say <message>", "desc": "I will write the given message.", "admin": true, "pause": true },
+			{ "cmd": "say alarm <message>", "desc": "I will write the given message already preformatted: 🚨 **<message>** 🚨", "admin": true, "pause": true },
+			{ "cmd": "delete <count>", "desc": "I will delete the recent messages in the channel, as long as they aren't older than 14 days.", "admin": true, "pause": true },
+			{ "cmd": "purge <count>", "desc": "I will delete the recent messages in the channel, as long as they aren't older than 14 days.", "hide": true, "admin": true }
+		]
+	}
+}
