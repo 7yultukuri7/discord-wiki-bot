@@ -18,7 +18,7 @@
 		"save_failed": "悲しいことに設定を保存できませんでした。しばらくしてからもう一度お試しください。",
 		"missing": "このサーバーはまだセットアップされていません。 設定を変更するには、%1$s と %2$sでセットアップを終わらせてください。",
 		"foundwikis": "これらのウィキのいずれかを意味しますか?",
-		"current": "このサーバーの現在の設定:",
+		"current": "このサーバーのの設定:",
 		"channel current": "このチャンネルの現在の設定:",
 		"currentlang": "言語:",
 		"currentprefix": "プレフィックス:",
@@ -146,99 +146,99 @@
 			"loading": "グローバル統計を読み込んでいます…"
 		},
 		"block": {
-			"header": "%s is currently blocked!",
-			"text": "Blocked on %1$s until %2$s by %3$s with reason \"%4$s\".",
-			"noreason": "Blocked on %1$s until %2$s by %3$s.",
-			"nofromtext": "Blocked until %2$s by %3$s with reason \"%4$s\".",
-			"nofromnoreason": "Blocked until %2$s by %3$s.",
-			"until_infinity": "the end of all days"
+			"header": "%sは現在ブロックされています！",
+			"text": "理由「%4$s」により、%3$sによって%1$sから%2$sまでブロックされました。",
+			"noreason": "%3$sによって%1$sから%2$sでブロックされました。",
+			"nofromtext": "理由「%4$s」により、%3$sによって%2$sまでブロックされました。",
+			"nofromnoreason": "%3$sによって%2$sまでブロックされました。",
+			"until_infinity": "すべての日の終わり"
 		},
 		"gblock": {
-			"header": "%s is currently globally blocked!",
+			"header": "%sはグローバルにブロックされています！",
 			"text": "Blocked on %1$s until %2$s by %3$s on %4$s with reason \"%5$s\".",
 			"noreason": "Blocked on %1$s until %2$s by %3$s on %4$s.",
-			"disabled": "This account is currently disabled!"
+			"disabled": "このアカウントは現在無効になっています！"
 		}
 	},
 	"diff": {
-		"badrev": "at least one revision doesn't exist!",
-		"nocomment": "*No description provided*",
-		"hidden": "*hidden*",
+		"badrev": "少なくとも1つのリビジョンが存在しません！",
+		"nocomment": "*説明なし*",
+		"hidden": "*隠された*",
 		"info": {
-			"editor": "Editor:",
-			"timestamp": "Edit date:",
-			"size": "Difference:",
-			"bytes": "%s Bytes",
-			"comment": "Comment:",
-			"tags": "Tags:",
-			"removed": "Removed:",
-			"added": "Added:",
-			"more": "And more",
-			"whitespace": "Only whitespace"
+			"editor": "エディター:",
+			"timestamp": "編集日:",
+			"size": "差分:",
+			"bytes": "%s バイト",
+			"comment": "コメント:",
+			"tags": "タグ:",
+			"removed": "削除:",
+			"added": "追加:",
+			"more": "もっと",
+			"whitespace": "空白のみ"
 		}
 	},
 	"search": {
-		"page": "page",
-		"search": "search",
-		"infopage": "Not the correct result? Use %s for a direct link.",
-		"infosearch": "Not the correct result? Use %1$s for a direct link or %2$s for a list of all hits.",
+		"page": "ページ",
+		"search": "検索",
+		"infopage": "正しい結果ではありませんか？ 直接リンクには%sを使用してください。",
+		"infosearch": "正しい結果ではありませんか？ 直接リンクには%1$sを使用し、すべてのヒットのリストには%%2$sを使用します。",
 		"category": {
-			"content": "Content of this category:",
-			"empty": "*This category is empty*",
+			"content": "このカテゴリのコンテンツ:",
+			"empty": "*このカテゴリは空です*",
 			"pages": {
-				"default": "%s pages",
-				"1": "%s page"
+				"default": "%s ページ",
+				"1": "%s ページ"
 			},
 			"files": {
-				"default": "%s files",
-				"1": "%s file"
+				"default": "%s ファイル",
+				"1": "%s ファイル"
 			},
 			"subcats": {
-				"default": "%s categories",
-				"1": "%s category"
+				"default": "%s カテゴリ",
+				"1": "%s カテゴリ"
 			}
 		},
-		"special": "Content of this special page:",
-		"empty": "*This special page is empty*"
+		"special": "この特別ページの内容:",
+		"empty": "*この特別ページは空です*"
 	},
 	"discussion": {
-		"post": "post",
-		"main": "Discussions",
-		"image": "View Image",
+		"post": "ポスト",
+		"main": "ディスカッション",
+		"image": "画像を見る",
 		"votes": {
-			"default": "%s votes",
-			"1": "%s vote"
+			"default": "%s票",
+			"1": "%s票"
 		}
 	},
 	"invite": {
-		"bot": "Use this link to invite me to another server:"
+		"bot": "このリンクを使用して、別のサーバーに招待してください:"
 	},
 	"poll": {
-		"title": "**Poll:**\n"
+		"title": "**投票:**\n"
 	},
 	"delete": {
-		"invalid": "the specified number isn't valid.",
-		"success": "the most recent %s messages in this channel were deleted.",
-		"big": "the specified number is too big. The maximum is %s!"
+		"invalid": "指定された番号は無効です。",
+		"success": "このチャンネルの最新の%sメッセージが削除されました。",
+		"big": "指定された数が大きすぎます。 最大は%sです！"
 	},
 	"test": {
 		"random": 10,
-		"pause": "I'm currently paused on this server.",
+		"pause": "現在、このサーバーで一時停止しています。",
 		"text": [
-			"I'm still alive!",
-			"and believe me, I am still alive.",
-			"I'm doing science and I'm still alive.",
-			"I feel fantastic and I'm still alive."
+			"私はまだ生きている！",
+			"そして私を信じて、私はまだ生きています。",
+			"私は科学をやっていて、まだ生きています。",
+			"私は幻想的で、まだ生きています。"
 		],
 		"default": "私は完全に機能しています！",
 		"time": "反応時間"
 	},
 	"help": {
-		"all": "So, you want to know what things I can do? Here is a list of all commands that I understand:",
-		"admin": "These commands can only be performed by administrators:",
-		"noadmin": "you need the `Manage Server` permission for these commands!",
-		"pause": "**I'm currently paused on this server!**\nOnly these commands can be performed:",
-		"footer": "If you got an unwanted response, you can react with 🗑️ to my message and I will delete it.",
+		"all": "あなたはこのボットができることを知りたいですか？このボットが理解しているすべてのコマンドのリストは次のとおりです。",
+		"admin": "これらのコマンドは、管理者のみが実行可能:",
+		"noadmin": "これらのコマンドには「サーバーの管理」権限が必要です！",
+		"pause": "**現在、このサーバーで一時停止しています！**\n次のコマンドのみを実行可能:",
+		"footer": "不要な応答があった場合は、私のメッセージに 🗑️ のリアクションを付けることで対応できます。削除します。",
 		"list": [
 			{ "cmd": "<search term>", "desc": "I will answer with a link to a matching article in the wiki.", "unsearchable": true },
 			{ "cmd": "[[<page name>]]", "desc": "I will answer with a direct link to the article in the wiki.", "unsearchable": true, "inline": true },
